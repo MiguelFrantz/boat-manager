@@ -2,7 +2,6 @@ import { Col, Empty, Row, Skeleton } from "antd";
 import { BoatPreview } from "~metadata/boats.model";
 import { CardBoat } from "../card-boat/card-boat";
 import { useNavigate } from "react-router-dom";
-import { ReactElement } from "react";
 
 interface Props {
   boats?: BoatPreview[];

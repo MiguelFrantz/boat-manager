@@ -1,4 +1,4 @@
-import { Col, Row } from "antd"
+import { Col } from "antd"
 import { TotalBoats } from "./total-boats"
 import { styled } from "styled-components";
 

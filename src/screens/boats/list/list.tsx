@@ -1,5 +1,5 @@
 import { PlusOutlined, SearchOutlined } from "@ant-design/icons";
-import { Button, Col, Row } from "antd";
+import { Button, Col } from "antd";
 import { useEffect, useState } from "react";
 import { listBoats } from "../../../services/boats.service";
 

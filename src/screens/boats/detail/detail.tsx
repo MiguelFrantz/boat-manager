@@ -35,7 +35,7 @@ const Detail = () => {
         console.log(error)
       })
       .finally(() => setLoading(false))
-  }, [])
+  }, [boatId, navigate])
 
   const handleSubmit = () => {
     notification.success({

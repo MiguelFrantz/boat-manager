@@ -1,5 +1,5 @@
 import { basePath } from "../configs";
-import { BoatListModel, BoatModel, BoatPreview } from "~metadata/boats.model";
+import { BoatListModel, BoatModel } from "~metadata/boats.model";
 
 const listBoats = async (): Promise<BoatListModel> => {
   const response = await fetch(`${basePath}/boats`, {
