@@ -18,7 +18,17 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "rootDir": "./",
+    "baseUrl": "./",
+    "paths": {
+      "~mock/*": [ "src/mock/*"],
+      "~components/*": ["src/components/*"],
+      "~metadata/*": ["src/metadata/*"],
+      "~service/*": ["src/mock/*"],
+      "~screens/*": ["src/screens/*"],
+      "~services/*": ["src/services/*"]
+    }
   },
   "include": [
     "src"
